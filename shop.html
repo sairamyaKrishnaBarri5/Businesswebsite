@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>secondcup</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header>
+       
+		
+			<div class="shoplinks">
+				<div class="shoplinkad">
+			<p>free shopping when you spend $50!</p>
+		</div>
+		      
+		<div class="shopmain">
+	          <ul class="sociallinks" style="margin-bottom: 20px;">
+	          	
+				<a href="https://twitter.com/secondcupcanada"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/SecondCup"><i class="fa fa-facebook"></i></a></
+				<a href="https://www.instagram.com/secondcupcanada/"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCM9A_hPp3bgc0BxaxlGAkzA"><i class="fa fa-youtube"></i></a>
+				<a href="index.html"><img src="images/logo.png" style="width:180px; height:80px; margin-top:10px; margin-left: 350px"></a>
+			</ul>
+		</div>
+		<div class="cart" style="float: right; font-size: 30px; position: absolute; top:0; right: 30px;margin-top: 40px;">
+			<i class="fa fa-shopping-bag"></i>
+		</div>
+	</div>
+	</div>
+	</header>
+		<div class="shopmenuitems">
+			<ul><li><a href="menu.html">Home</a></li>
+				<li><a href="shop.html">Featured</a></li>
+		<li><div class="dropdown">
+  <a href="" class="dropbtn active" onclick="filterSelection('all')">coffee<i class="fa fa-caret-down"></i></a>
+<div id="myBtnContainer">
+<div class="dropdown-content">
+    <a href="#" class="but" onclick="filterSelection('coffee')"></a>
+   <a  href="#"class="but" onclick="filterSelection('darkroast')">Dark Roast</a>
+    <a href="#" class="but" onclick="filterSelection('medium')">Medium</a>
+    <a href="#"class="but" onclick="filterSelection('roast')">Roast</a>
+    <a href="#" class="but" onclick="filterSelection('lightroast')">Light Roast</a>
+    <a href="#" class="but" onclick="filterSelection('flavoured')">Flavoured</a>
+    <a href="#" class="but" onclick="filterSelection('ground')">Ground</a>
+    <a href="#" class="but"onclick="filterSelection('decaf')">Decaf</a>
+  </div>
+</div>
+</div></li>
+<li><div id="myBtnContainer">
+
+  <div class="dropdown">
+  <a href="" class="dropbtn">tea <i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-content">
+    <a href="#" class="but" onclick="filterSelection('green')">Green</a>
+    <a href="#" class="but" onclick="filterSelection('herbal')">Herbal</a>
+    <a href="#" class="but" onclick="filterSelection('black')">Black</a>
+  </div>
+</div>
+</div></li>
+<li><div class="dropdown">
+  <a href=""class="dropbtn">hot choclate<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-content">
+    <a href="#"onclick="filterSelection('hotchoclate')">Hot Choclate</a>
+    <a href="#"onclick="filterSelection('cider')">Cider</a>
+    
+  </div>
+</div></li>
+<li><div class="dropdown">
+  <a href="" class="dropbtn">more<i class="fa fa-caret-down"></i></a>
+  <div class="dropdown-content">
+    <a href="#" onclick="filterSelection('bundle')">Bundels</a>
+    <a href="#" onclick="filterSelection('syrup')">Syrup</a>
+    <a href="#" onclick="filterSelection('merch')">Merchandise</a>
+  </div>
+</div></li>
+<li><a href="sale.html">sale</a></li>
+<li><a href="shop.html">shopall</a></li>
+</ul>
+</div>
+
+<div class="row">
+	<div class="shoprow1">
+	<div class="shoprow1-disc">
+		<h1>Enjoy SecondCup at Home!</h1>
+		<h4>Enjoy your favourites,delivered to you </h4><br>
+		<a href="menu.html"><button class="btn">SHOPNOW</button></a>
+	</div>
+</div>
+</div>
+<!----<div class="row">
+	<div class="shopitemsrow">
+		<h2>SecondCup favouraties, just for you </h2>
+		<h4>Find it right for you</h4>
+		<div class="shopitems">
+			<div class="shopitem-disc">
+				<img src="images/product.jpg">
+				<p> classic hotchoclate</p>
+				<span>$16.95</span></div>
+		</div>
+		<div class="shopitems">
+			<div class="shopitem-disc">
+				<img src="images/product.jpg">
+				<p> classic hotchoclate</p>
+				<span>$16.95</span></div>
+		</div>
+		<div class="shopitems">
+			<div class="shopitem-disc">
+				<img src="images/product.jpg">
+				<p> classic hotchoclate</p>
+				<span>$16.95</span>
+			</div>
+		</div>
+		<div class="shopitems">
+			<div class="shopitem-disc">
+				<img src="images/product.jpg">
+				<p> classic hotchoclate</p>
+				<span>$16.95</span>
+			</div>
+		</div>-------------->
+
+</div>
+</div>
+
+<!-------<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('kid')">Kids </button>
+  <button class="btn" onclick="filterSelection('women')">Womens </button>
+  <button class="btn" onclick="filterSelection('man')"> Mens </button>
+  <button class="btn" onclick="filterSelection('boy')">Boys </button>
+  <button class="btn" onclick="filterSelection('girl')">Girls </button>
+
+</div>-------------->
+
+
+
+<div class="small-container">
+      <h2 class="title">Featured products</h2>
+      <div class="shopitems">
+      	<div class="col-4 filterDiv coffee hotchoclate">
+      		<img src="images/product1.jpg"><br>
+      		<h4>Clasic Hot Choclate</h4>
+      		 
+      		 <p>$20.00</p>
+      </div>
+      	<div class="col-4 filterDiv coffee medium">
+      		<img src="images/product2.jpg"><br><br>
+      		<h4>White Hot Choclate</h4>
+      		 
+      		 <p>$40.00</p>
+      	</div>
+      
+      	<div class="col-4 filterDiv hotchoclate">
+      		<img src="images/product3.jpg"><br>
+      		<h4>Maple Cream</h4>
+      		 
+      		 <p>$50.00</p>
+      	</div>
+      
+      	<div class="col-4 filterDiv coffee darkroast">
+      		<img src="images/product4.jpg"><br><br>
+      		<h4>Wheat Fiber Thumbler</h4>
+      		 
+      		 <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv coffee darkroast">
+          <img src="images/product4.jpg"><br><br>
+          <h4>Wheat Fiber Thumbler</h4>
+           
+           <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv coffee medium">
+          <img src="images/coffee.jpg"><br><br>
+          <h4>Wheat Fiber Thumbler</h4>
+           
+           <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv coffee darkroast">
+          <img src="images/coffee1.jpg"><br><br>
+          <h4>Wheat Fiber Thumbler</h4>
+           
+           <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv tea">
+          <img src="images/Wildberry.jpg"><br><br>
+          <h4>Wheat Fiber Thumbler</h4>
+           
+           <p>$38.00</p>
+       </div>
+      <div class="col-4 filterDiv  bundle">
+          <img src="images/bundle1.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+      <div class="col-4 filterDiv hotchoclate cider">
+          <img src="images/product5.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+      	<div class="col-4 filterDiv hotchoclate cider">
+      		<img src="images/product5.jpg"><br>
+      		<h4>Red printed T-shirt</h4>
+      		 <p>$20.00</p>
+      </div>
+      <div class="col-4 filterDiv bundle">
+          <img src="images/bundle.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+      	<div class="col-4 filterDiv">
+      		<img src="images/product8.jpg ">
+      		<h4>Red printed T-shirt</h4>
+      		 <p>$40.00</p>
+      	</div>
+      
+      	<div class="col-4 filterDiv tea green">
+      		<img src="images/Mint.jpg">
+      		<h4>Syrup</h4>
+      		 <p>$50.00</p>
+      	</div>
+      
+      	<div class="col-4 filterDiv tea black">
+      		<img src="images/Wildberry.jpg">
+      		<h4>WildBerry</h4>
+      		 <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv bundle">
+          <img src="images/bundle3.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+       <div class="col-4 filterDiv tea herbal" >
+      		<img src="images/yellowbox.jpg ">
+      		<h4>Chammomile Tea</h4>
+      		 <p>$38.00</p>
+       </div><div class="col-4 filterDiv tea black">
+      		<img src="images/EnglishBreakfast.jpg">
+      		<h4>Red printed T-shirt</h4>
+      		<p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv syrup">
+      		<img src="images/Hazelnut.jpg">
+      		<h4>Hazelnut</h4>
+      		 
+      		 <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv hotchoclate cider">
+      		<img src="images/mapple.png">
+      		<h4>Mapple</h4>
+      		 <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv merch">
+          <img src="images/bundle1.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+       <div class="col-4 filterDiv coffee darkroast">
+      		<img src="images/product4.jpg">
+      		<h4>EngilishBreakfast</h4>
+      		  <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv syrup">
+      		<img src="images/syrup.jpg">
+      		<h4>Syrup</h4>
+      		 
+      		 <p>$38.00</p>
+       </div>
+       <div class="col-4 filterDiv merch">
+          <img src="images/product3.jpg"><br>
+          <h4>Red printed T-shirt</h4>
+           <p>$20.00</p>
+      </div>
+       <div class="col-4 filterDiv coffee medium hotchoclate">
+      		<img src="images/product1.jpg">
+      		<h4>Hot Choclate</h4>
+      		 
+      		 <p>$38.00</p>
+       </div>
+       
+       </div> <!-----container---->
+
+  </div> <!--------row---->
+<div class="row">
+  <div class="shopvideo">
+    <video autoplay muted loop id="myVideo">
+    <source src="images/coffeeshop.MOV" type="video/mp4">
+  </video>
+  <div class="shopvideo-disc">
+    <img src="images/maple2.png">
+    <p style="font-size: 20px; font-family: 'Nunito Sans',Sans-sarif; color: #008ea6; font-style: italic;">Mapple Madness</p>
+  </div>
+  </div>
+</div>
+<div class="row">
+  <div class="shopfooter">
+    <img src="images/logo2.jpg">
+    <ul><li>Home</li>
+      <li>Featured</li>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Hotchoclate</li>
+      <li>More</li>
+      <li>shopall</li></ul>
+      <ul><li>Privacy</li>
+        <li>Terms&conditions</li>
+        <li>Search</li>
+        <li>ContactUs</li></ul>
+  </div>
+</div>
+  <div class="shopfooter2">
+    <p style="align-items: center;">Copyright © Second Cup Coffee Co.™ 2021 </p>
+    <div class="shop sociallinks">
+      <a href="https://twitter.com/secondcupcanada"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/SecondCup"><i class="fa fa-facebook"></i></a></
+        <a href="https://www.instagram.com/secondcupcanada/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCM9A_hPp3bgc0BxaxlGAkzA"><i class="fa fa-youtube"></i></a>
+      
+    </div>
+  </div>
+       
+
+	<script src="js/filter.js"></script>
+	
+</body>
+</html>
